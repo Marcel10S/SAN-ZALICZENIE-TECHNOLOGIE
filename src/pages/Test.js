@@ -1,10 +1,10 @@
-import React from "react";
 import Theme from "../theme";
+import TestPage from "./../feature/Test/index"
 
 export default function Test() {
   return (
     <Theme>
-      <div>Test</div>
+      <TestPage />
     </Theme>
   );
 }

@@ -1,0 +1,37 @@
+.test-page {
+    width: 100%;
+}
+.test-page__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.test-page__container__input {
+    width: 150px;
+    padding: 5px 8px;
+    border: 2px #336666 solid;
+    border-radius: 5px;
+    outline: none;
+}
+.test-page__container__text {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.test-page__container__button {
+    width: 150px;
+    padding: 5px 8px;
+    border: 2px #336666 solid;
+    border-radius: 5px;
+    color: #336666;
+    background: #FFF;
+}
+.test-page__info {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #336666;
+}

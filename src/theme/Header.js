@@ -17,13 +17,13 @@ export default function Header() {
 
   return (
     <>
-      <header className="header" ref={header}>
+      <div className="header" ref={header}>
         <div className="header__routes-container">
           {Object.keys(routeList).map((routeKey) => {
             return <a className="header__routes-container__route" href={routeList[routeKey].path}>{routeList[routeKey].label}</a>
           })}
         </div>
-      </header>
+      </div>
       <div style={{ height: menuHeight }}></div>
     </>
   );
