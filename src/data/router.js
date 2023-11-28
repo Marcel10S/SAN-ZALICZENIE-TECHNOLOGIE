@@ -7,10 +7,11 @@ import Test from "../pages/Test";
 import Currency from "../pages/Currency";
 import Details from "../pages/Details";
 import Report from "../pages/Report";
+import Error from "../pages/Error";
 
 export default createBrowserRouter([
   {
-    errorElement: <div>Erorora</div>,
+    errorElement: <Error />,
     children: [
       { path: routeList.currency.path, element: <Currency /> },
       { path: routeList.details.path, element: <Details /> },

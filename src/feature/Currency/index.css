@@ -1,0 +1,24 @@
+.currency-page {
+    width: 100%;
+    padding: 0 15px;
+    overflow-x: hidden;
+}
+.currency-page__header {
+    text-align: center;
+}
+.currency-page__table {
+    width: 100%;
+    max-width: 100vw;
+    border: 1px solid #99CCCC;
+    border-spacing: 10px;
+    table-layout: fixed;
+}
+.currency-page__table__row {
+    margin: 8px 10px;
+}
+.currency-page__table__row__col {
+    font-size: 20px;
+    text-align: left;
+    white-space: break-spaces;
+    word-break: break-word;
+}

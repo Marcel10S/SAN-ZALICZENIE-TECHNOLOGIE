@@ -1,10 +1,11 @@
 import React from "react";
 import Theme from "../theme";
+import CurrencyFeature from "../feature/Currency/index";
 
 export default function Currency() {
   return (
     <Theme>
-      <div>Currency</div>
+      <CurrencyFeature />
     </Theme>
   );
 }
