@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 import Test from "../pages/Test";
 import Currency from "../pages/Currency";
 import Details from "../pages/Details";
-import Example from "../pages/Example";
+import Report from "../pages/Report";
 
 export default createBrowserRouter([
   {
@@ -14,7 +14,7 @@ export default createBrowserRouter([
     children: [
       { path: routeList.currency.path, element: <Currency /> },
       { path: routeList.details.path, element: <Details /> },
-      { path: routeList.example.path, element: <Example /> },
+      { path: routeList.example.path, element: <Report /> },
       { path: routeList.home.path, element: <Home /> },
       { path: routeList.test.path, element: <Test /> },
     ],

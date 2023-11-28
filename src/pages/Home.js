@@ -7,7 +7,7 @@ export default function Home() {
       <h1>Strona na zaliczenie przedmiotu Technologie internetowe</h1>
       <h3>Wykonana przez: Marcel Stulczewski</h3>
       <h3>Numer indexu: 118903</h3>
-      <h3>W technologi: React sss </h3>
+      <h3>W technologi: React</h3>
     </Theme>
   );
 }
